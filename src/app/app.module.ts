@@ -8,11 +8,13 @@ import { ParerntComponentComponent } from './parernt-component/parernt-component
 import {MatIconModule} from '@angular/material/icon';
 import {MatButtonModule} from '@angular/material/button';
 import {MatToolbarModule} from '@angular/material/toolbar';
+import { OtherComponentComponent } from './other-component/other-component.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    ParerntComponentComponent
+    ParerntComponentComponent,
+    OtherComponentComponent
   ],
   imports: [
     BrowserModule,
